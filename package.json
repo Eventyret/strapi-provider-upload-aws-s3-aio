@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-aio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS S3 Strapi upload provider with cloudfront, webp and private/public bucket toggle",
   "homepage": "https://dehlin.dev",
   "keywords": [
