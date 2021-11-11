@@ -1,0 +1,45 @@
+{
+  "name": "strapi-provider-upload-aws-s3-aio",
+  "version": "1.0.0",
+  "description": "AWS S3 Strapi upload provider with cloudfront, webp and private/public bucket toggle",
+  "homepage": "https://dehlin.dev",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1026.0",
+    "minipass": "^3.1.5",
+    "sharp": "^0.29.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "jest": "^27.3.1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": "Simen Daehlin <simen.daehlin@virginmedia.co.uk>",
+  "repository": "https://github.com/eventyret/strapi-provider-upload-aws-s3-aio.git",
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
